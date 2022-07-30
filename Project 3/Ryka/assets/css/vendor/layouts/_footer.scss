@@ -1,0 +1,48 @@
+#siteFoot {
+    border: 3px solid map-get($colors, "primary");
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 50px;
+    background-color: rgb(39, 37, 37);
+    color: aliceblue;
+    height: 290px;
+    display: flex;
+    .lll {
+        .footer {
+            margin-top: 40px;
+        }
+        .name-footer {
+            display: flex;
+            font-size: 25px;
+        }
+        color: map-get($colors, 'primary');
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        margin-right: 190px;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .info-footer {
+        margin-top: 10px;
+        color: aliceblue;
+        font-size: 15px;
+    }
+    .svg {
+        text-align: left;
+        .fa {
+            color: #eee;
+            font-size: 30px;
+            cursor: pointer;
+            margin-right: 20px;
+            &:hover {
+                color: map-get($colors, 'primary');
+            }
+        }
+    }
+}

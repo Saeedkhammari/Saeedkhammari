@@ -1,0 +1,249 @@
+.about {
+    font-size: 40px;
+    padding-top: 143px;
+    color: map-get($colors, 'primary');
+}
+
+.ryka-photo {
+    height: 500px;
+    margin-bottom: 140px;
+}
+
+.ryka-info {
+    font-size: 20px;
+    text-align: right;
+    max-width: 90%;
+    line-height: 40px;
+    padding-bottom: 20px;
+    color: $text-muted;
+}
+
+.ryka-more {
+    border: 3px solid map-get($colors, 'primary');
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: map-get($colors, 'primary');
+        color: #eee;
+    }
+}
+
+.colomn {
+    height: 320px;
+    background-image: url('/assets/img/head1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    background-attachment: fixed;
+}
+
+.name-serv {
+    color: #eee;
+    text-align: center;
+    margin-right: -50px;
+}
+
+.info-serv {
+    max-width: 90%;
+    color: #eee;
+    text-align: center;
+}
+
+.ph {
+    img {
+        margin-top: 100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 90px;
+        &:hover {
+            background-color: map-get($colors, 'primary');
+        }
+    }
+}
+
+.gallery {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    img {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        &:hover {
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            transform: skew(4deg);
+            -webkit-transform: skew(4deg);
+            -moz-transform: skew(4deg);
+            -ms-transform: skew(4deg);
+            -o-transform: skew(4deg);
+        }
+    }
+}
+
+.work-dif {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: map-get($colors, 'primary');
+}
+
+.contact-area .contact-form {
+    background: #333333;
+    color: #eee;
+}
+
+
+/* Change Autocomplete styles in Chrome*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    background-color: #333333;
+    color: black;
+}
+
+.contact .contact-form input {
+    border-radius: .2rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    color: #eee;
+    padding: 5rem 0;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.form-control {
+    margin-right: 90px;
+    width: 100%;
+    background-image: url('/assets/img/WallpaperGram.IR_1562081088_z93097.jpg');
+    height: 60px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: map-get($colors, 'primary');
+    padding: 20px;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+textarea.form-control {
+    color: #eee;
+    min-height: 200px;
+    max-height: 500px;
+    display: inherit;
+    padding: 12px 20px;
+    margin-bottom: -34px;
+}
+
+.contact-area .contact-form .y-button {
+    width: 200px;
+    color: #333333;
+}
+
+.more {
+    border: 3px solid map-get($colors, 'primary');
+    padding: 10px 40px;
+    color: #eee;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-top: -190px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: map-get($colors, 'primary');
+        color: #eee;
+    }
+}
+
+.my-work {
+    text-align: center;
+    margin-right: 150px;
+    font-size: 90px;
+}
+
+.sssddd {
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        z-index: 0;
+        margin-right: 40px;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 200px;
+        height: 200%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+}
+
+.mm {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}

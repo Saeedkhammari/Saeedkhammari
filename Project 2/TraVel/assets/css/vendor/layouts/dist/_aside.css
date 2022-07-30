@@ -1,0 +1,13 @@
+#sidebar .list-items {
+  background-color: aqua;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,112 @@
+        //XS-SM
+        @media (max-width: 767.98px) {
+            #siteHead {
+                background-image: none;
+                header {
+                    img {
+                        display: none;
+                    }
+                    display: none;
+                    nav {
+                        display: none;
+                    }
+                }
+                .name {
+                    display: none;
+                }
+                .name-info {
+                    display: none;
+                }
+                .logo {
+                    img {
+                        display: none;
+                    }
+                }
+            }
+            .about-photo {
+                margin-top: -1690px;
+            }
+            #siteBody {
+                .about {
+                    .on {
+                        h2 {
+                            display: none;
+                            padding-top: 300px;
+                            font-size: 50px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .about-info {
+                    padding-top: 320px;
+                }
+                #btnn1 {
+                    margin-right: 170px;
+                }
+                #btnn2 {
+                    margin-top: -80px;
+                    margin-right: -10px;
+                }
+                .Serv {
+                    margin-top: -20px;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .count-plus {
+                    display: none;
+                    height: 800px;
+                }
+                .counter-section {
+                    display: none;
+                    display: grid;
+                    grid-gap: 25px;
+                    grid-template-columns: repeat(2, (minmax(0, 1fr)));
+                    align-items: center;
+                    text-align: center;
+                    justify-content: space-between;
+                    margin-right: 90px;
+                }
+                .counter-box {
+                    display: none;
+                    margin-right: -30px;
+                    margin-top: 90px;
+                    justify-content: space-between;
+                    .fa {
+                        font-size: 40px;
+                    }
+                }
+                .titr {
+                    text-align: center;
+                }
+            }
+        }
+        
+        .touch {
+            text-align: center;
+            align-items: center;
+            margin-right: -7px;
+            font-size: 40px;
+        }
+        
+        #siteFoot {
+            width: 100%;
+            .footer-logo {
+                margin-right: 150px;
+            }
+        }
+        
+        //XS
+        @media (max-width: 576px) {}
+        
+        //SM
+        @media (min-width: 576px) and (max-width: 767.98px) {}
+        
+        //MD
+        @media (min-width: 768px) and (max-width: 991.98px) {}
+        
+        //LG
+        @media (min-width: 992px) and (max-width: 1199.98px) {}
+        
+        //XL
+        @media (min-width: 1200px) {}

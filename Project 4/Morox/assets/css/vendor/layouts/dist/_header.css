@@ -1,0 +1,22 @@
+#siteHead {
+  background-color: #ecfafa;
+  width: 100%;
+  position: fixed;
+  margin-top: -13px;
+  z-index: 1;
+}
+#siteHead .menu {
+  list-style: none;
+  display: flex;
+  margin-right: 80px;
+}
+#siteHead .menu > li {
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+#siteHead .logo {
+  width: 120px;
+  margin-right: 990px;
+  margin-top: -57px;
+}

@@ -1,0 +1,62 @@
+#siteFoot {
+  background: linear-gradient(rgba(81, 124, 116, 0.4), rgba(0, 175, 144, 0.4));
+  padding: 35px;
+  direction: ltr;
+  display: flex;
+}
+
+.footer-about {
+  max-width: 70%;
+}
+
+.footer-col {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+}
+.footer-col h4 {
+  margin-right: 190px;
+  font-size: 20px;
+  margin-left: 220px;
+}
+
+.footer-menu {
+  font-size: 20px;
+  line-height: 39px;
+}
+
+.suup {
+  margin-top: -230px;
+  margin-left: 90px;
+  margin-right: -310px;
+}
+
+.social-link {
+  float: right;
+  justify-content: right;
+  margin-left: 750px;
+  margin-top: -170px;
+  display: flex;
+}
+.social-link .fa:hover {
+  background-color: #063e6b;
+}
+
+h3 {
+  margin-left: 490px;
+  margin-top: -230px;
+  font-size: 20px;
+  position: absolute;
+}
+
+.links {
+  margin-top: -10px;
+}
+.links .footer-menu li {
+  margin-top: 5px;
+  line-height: 34px;
+}
